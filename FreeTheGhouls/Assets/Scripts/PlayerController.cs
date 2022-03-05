@@ -105,7 +105,7 @@ public class PlayerController : MonoBehaviour
             runTimeText.gameObject.SetActive(true);
             GameWonText.gameObject.SetActive(true);
             timer.gameObject.SetActive(false);
-            runTimeText.text = timeStart.ToString("0");
+            runTimeText.text = timeStart.ToString(" 0 " + "seconds");
         }
 
     }
