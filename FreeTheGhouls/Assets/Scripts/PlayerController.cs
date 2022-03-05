@@ -47,7 +47,7 @@ public class PlayerController : MonoBehaviour
         if(playerHealth == 1){
             healthHearts[1].gameObject.SetActive(false);
         } 
-        if(playerHealth == 0){
+        if(playerHealth <= 0){
             healthHearts[0].gameObject.SetActive(false);
             SceneManager.LoadSceneAsync(0);
         }
